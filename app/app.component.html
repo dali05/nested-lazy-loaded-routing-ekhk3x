@@ -1,0 +1,17 @@
+<pre>
+Router layout:
+==============
+- OneModule
+  - OneComponent
+  - ThreeModule
+    - ThreeComponent
+  - FourModule
+    - FourComponent
+- TwoModule
+  - TwoComponent
+</pre>
+<nav>
+<a [routerLink]="['one']">One</a>
+<a [routerLink]="['two']">Two</a>
+</nav>
+<router-outlet></router-outlet>
